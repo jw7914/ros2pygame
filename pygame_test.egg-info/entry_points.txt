@@ -1,0 +1,2 @@
+[console_scripts]
+test_node = pygame_test.test_node:main

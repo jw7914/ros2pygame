@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+pygame_test/__init__.py
+pygame_test/test_node.py
+pygame_test.egg-info/PKG-INFO
+pygame_test.egg-info/SOURCES.txt
+pygame_test.egg-info/dependency_links.txt
+pygame_test.egg-info/entry_points.txt
+pygame_test.egg-info/requires.txt
+pygame_test.egg-info/top_level.txt
+pygame_test.egg-info/zip-safe
+resource/pygame_test
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
