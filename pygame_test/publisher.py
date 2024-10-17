@@ -6,7 +6,7 @@ import pygame
 
 class PublishInputs(Node):
     def __init__(self):
-        super().__init__("keyboard_input")
+        super().__init__("keyboard_publisher")
         self.cmd_publisher = self.create_publisher(String, 'keyboard_commands', 10)
         self.get_logger().info("Keyboard input node started")
 

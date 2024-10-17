@@ -5,7 +5,7 @@ from std_msgs.msg import String
 
 class KeyboardCommandSubscriber(Node):
     def __init__(self):
-        super().__init__('keyboard_command_subscriber')
+        super().__init__('keyboard_subscriber')
         self.subscription = self.create_subscription(
             String,
             'keyboard_commands',
