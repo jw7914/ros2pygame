@@ -14,7 +14,7 @@ class KeyboardCommandSubscriber(Node):
         self.get_logger().info("Listening for keyboard commands...")
 
     def listener_callback(self, msg):
-        self.get_logger().info(f"Received command: {msg.data}")
+        self.get_logger().info(f"Received: {msg.data}")
 
 def main(args=None):
     rclpy.init(args=args)
