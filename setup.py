@@ -15,14 +15,14 @@ setup(
     zip_safe=True,
     maintainer='jason',
     maintainer_email='jason@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='A package to test joystick input and visualize control states using Tkinter.',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             "test_node = pygame_test.test_node:main",
             "keyboard_publisher = pygame_test.publisher:main",
             "keyboard_listener = pygame_test.listener:main",
+            "joystick_node = pygame_test.joystickTester:main"
         ],
     },
 )

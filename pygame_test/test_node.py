@@ -1,7 +1,6 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-import pygame
 
 class MyNode(Node):
     def __init__(self):

@@ -3,12 +3,14 @@
 <package format="3">
   <name>pygame_test</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="jason@todo.todo">jason</maintainer>
-  <license>TODO: License declaration</license>
+  <description>A package to test joystick input and visualize control states using Tkinter.</description>
+  <maintainer email="jason@todo.todo">Jason</maintainer>
+  <license>Apache-2.0</license>
 
-  <depend>rclpy</depend>
   <depend>pygame</depend>
+  <depend>sensor_msgs</depend>
+  <depend>python3-tk</depend>
+  <depend>rclpy</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
