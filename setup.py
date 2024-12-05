@@ -22,7 +22,7 @@ setup(
             "test_node = pygame_test.test_node:main",
             "keyboard_publisher = pygame_test.publisher:main",
             "keyboard_listener = pygame_test.listener:main",
-            "joystick_node = pygame_test.joystickTester:main",
+            "joystick_visualizer = pygame_test.joystickVisualizer:main",
             "joystick = pygame_test.joyTest:main"
         ],
     },
