@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
-from button_map import ButtonMap
+from pygame_test.button_map import ButtonMap
 import time
 
 class JoyTester(Node):
@@ -58,7 +58,7 @@ class JoyTester(Node):
 
             if joy_msg.buttons[ButtonMap.EXIT.value] == 1:
                 self.get_logger().info("Exit Button pressed")
-    
+                
     def run(self):
         while rclpy.ok():
             rclpy.spin_once(self)
